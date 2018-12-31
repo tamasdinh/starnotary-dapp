@@ -22,7 +22,13 @@
     <br><label for="tokenId">Star TokenID:</label><input type="text" id="tokenId"></input>
     <br><br><button id="tokenId" onclick="App.lookUpStarByTokenId()">Get Star Name</button>
     <br>
-    <span id="statusName"></span>
+    <span id="statusName"></span><br><br>
+
+    <h1>Transfer a Star</h1>
+    <br><label for="starToBeTransferred">Star TokenID:</label><input type="text" id="starToBeTransferred"></input>
+    <br><label for="accountToBeSentTo">Account to be sent to:</label><input type="text" id="accountToBeSentTo"></input>
+    <br><br><button id="transferStarToken" onclick="App.transferStarToken()">Transfer Star</button>
+    <br>
 
 </body>
 </html>
